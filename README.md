@@ -12,6 +12,21 @@ $ npm install
 $ npm run dev
 ```
 
+### options
+
+| filed | params | desc |
+| :--- | :--- | :---------- |
+| `name` | `String` | package name |
+| `homepage` | `String` | the project homepage |
+| `namespace` | `String` | The lib namespace。 |
+| `version` | `String` | The package version |
+| `description` | `String` | The project description |
+| `Author` | `String` | The project author |
+| `scss` | `choices` | Use scss for your style code? |
+| `ESLint` | `choices` | Use ESLint to lint your code? |
+| `autoInstall` | `choices` | Should we run `npm install` for you after the project has been created?  |
+
+
 Fork It And Make Your Own
 You can fork this repo to create your own boilerplate, and use it with maptalks-cli:
 
