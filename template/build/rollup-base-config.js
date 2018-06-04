@@ -58,13 +58,20 @@ const genConfig = (opts) => {
           emitFiles: true // defaults to true
         })
         {{/scss}}
+      ],
+      external: [
+        'maptalks'
       ]
     },
     output: {
       file: opts.file,
       format: opts.format,
       banner,
-      name: _package.namespace
+      name: _package.namespace,
+      extend: true,
+      globals: {
+        'maptalks': 'maptalks'
+      }
     }
   }
   if (opts.env) {

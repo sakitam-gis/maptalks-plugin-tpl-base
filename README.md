@@ -6,6 +6,9 @@ This is a project template for maptalks-cli. It is recommended to use npm 3+ for
 
 ```bash
 $ npm install -g maptalks-cli
+// list available templete
+$ maptalks list
+// generate project
 $ maptalks init sakitam-gis/maptalks-plugin-tpl-base my-project
 $ cd my-project
 $ npm install
