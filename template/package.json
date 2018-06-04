@@ -16,7 +16,7 @@
     {{/lint}}
   },
   "dependencies": {
-    "maptalks": "^4.0.2"
+    "maptalks": "^0.40.2"
   },
   "devDependencies": {
     {{#lint}}
