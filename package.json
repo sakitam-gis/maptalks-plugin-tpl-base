@@ -1,0 +1,7 @@
+{
+  "name": "maptalks-plugin-tpl-base",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "A full-featured template plugin project",
+  "dependencies": {}
+}
